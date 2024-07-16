@@ -24,19 +24,16 @@ light_primary_color: lightest
 
 There are some properties that can be configured:
 
-```
-samples [int]
-```
+**samples [int]**
+
 This will specify the amount of samples to take from the background image
 
-```
-invert [true/false]
-```
+**invert [true/false]**
+
 This will invert the dark with the light colors
 
-```
-changeTextColor [true/false]
-```
+**changeTextColor [true/false]**
+
 Speicify if text color should be changed
 
 ## Specify colors
