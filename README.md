@@ -6,6 +6,7 @@ Create a file **ha-theme-generator-card.js** in the folder **/homeassistant/www*
 
 ## Add card to dashboard
 Add a custom card and specify the following config:
+
 ```type: custom:ha-theme-generator-card
 title: Theme
 samples: 5
