@@ -17,7 +17,7 @@ dark_primary_color: most_dominant
 light_primary_color: lightest```
 
 ## Configuration properties
-![alt text]([https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png](https://github.com/tomroeleveld/ha-theme-generator-card/blob/main/theme-card-config.png) "Theme generator config panel")
+![Theme generator config panel]([/assets/images/tux.png](theme-card-config.png))
 
 There are some properties that can be configured:
 
