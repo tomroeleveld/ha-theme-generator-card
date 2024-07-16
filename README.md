@@ -7,7 +7,8 @@ Create a file **ha-theme-generator-card.js** in the folder **/homeassistant/www*
 ## Add card to dashboard
 Add a custom card and specify the following config:
 
-```type: custom:ha-theme-generator-card
+```
+type: custom:ha-theme-generator-card
 title: Theme
 samples: 5
 invert: false
@@ -15,20 +16,27 @@ changeTextColor: false
 primary_color: darkest
 accent_color: least_dominant
 dark_primary_color: most_dominant
-light_primary_color: lightest```
+light_primary_color: lightest
+```
 
 ## Configuration properties
-![Theme generator config panel]([/assets/images/tux.png](theme-card-config.png))
+![Theme generator config panel](theme-card-config.png)
 
 There are some properties that can be configured:
 
-```samples [int]```
+```
+samples [int]
+```
 This will specify the amount of samples to take from the background image
 
-```invert [true/false]```
+```
+invert [true/false]
+```
 This will invert the dark with the light colors
 
-```changeTextColor [true/false]```
+```
+changeTextColor [true/false]
+```
 Speicify if text color should be changed
 
 ## Specify colors
@@ -42,10 +50,12 @@ The following colors will be available:
 
 This can be mapped to the Home Assistant Theme as stated below:
 
-```primary_color: darkest
+```
+primary_color: darkest
 accent_color: least_dominant
 dark_primary_color: most_dominant
-light_primary_color: lightest```
+light_primary_color: lightest
+```
 
 So Home Assistants primary color will be mapped to the darkest color from the theme card. The accent color will be mapped to the least_dominant color, etc
 
