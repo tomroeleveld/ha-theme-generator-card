@@ -2,7 +2,7 @@
 Home Assistant Theme Generator Card
 
 ## Installation
-Create a file **ha-theme-generator-card.js** in the folder **/homeassistant/www** and copy/pase the code.
+Create a file **ha-theme-generator-card.js** in the folder **/homeassistant/www** and copy/pase [this code](https://github.com/tomroeleveld/ha-theme-generator-card/blob/main/ha-theme-generator-card.js) in the file.
 
 ## Add card to dashboard
 Add a custom card and specify the following config:
